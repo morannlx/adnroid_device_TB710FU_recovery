@@ -1,0 +1,13 @@
+<!--
+    Input:
+        device/qcom/pineapple/manifest_pineapple.xml
+-->
+<manifest version="7.0" type="device" target-level="8">
+    <hal format="aidl">
+        <name>android.hardware.gatekeeper</name>
+        <fqname>IGatekeeper/default</fqname>
+    </hal>
+    <sepolicy>
+        <version>34.0</version>
+    </sepolicy>
+</manifest>

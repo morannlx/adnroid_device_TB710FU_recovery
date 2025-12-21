@@ -1,0 +1,6 @@
+service vendor.weaver_nxp /vendor/bin/hw/android.hardware.weaver-service.nxp
+    class hal
+    user root
+    group root drmrpc
+    capabilities WAKE_ALARM
+    seclabel u:r:recovery:s0
