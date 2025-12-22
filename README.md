@@ -8,7 +8,7 @@ TB710FU (codenamed _"topaz"_) is a smart tablet from Lenovo.
 mkdir twrp && cd twrp
 repo init --depth=1 -u https://github.com/TWRP-Test/platform_manifest_twrp_aosp.git -b twrp-16.0
 repo sync
-git clone --depth=1 https://github.com/morannlx/adnroid_device_TB710FU_recovery.git device/leovo/topaz
+git clone --depth=1 https://github.com/morannlx/adnroid_device_TB710FU_recovery.git device/lenovo/topaz
 ```
 
 ```
