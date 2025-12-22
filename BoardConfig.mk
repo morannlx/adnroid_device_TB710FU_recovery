@@ -94,6 +94,7 @@ TW_INCLUDE_7ZA                := true
 TW_INCLUDE_REPACKTOOLS        := true
 TW_INCLUDE_RESETPROP          := true
 TW_USE_TOOLBOX                := true
+TW_INCLUDE_ZSTD               := true
 
 # TWRP display
 TW_BRIGHTNESS_PATH      := /sys/class/backlight/panel0-backlight/brightness
@@ -101,13 +102,9 @@ TW_DEFAULT_BRIGHTNESS   := 2048
 TW_FRAMERATE            := 120
 TW_MAX_BRIGHTNESS       := 4095
 TW_SCREEN_BLANK_ON_BOOT := true
-TW_INPUT_BLACKLIST := "hbtp_vm"
-#TW_SCREEN_WIDTH := 3200
-#TW_SCREEN_HEIGHT := 2000
 TW_THEME := landscape_hdpi #portrait_hdpi
 TW_ROTATION := 0 
-RECOVERY_TOUCHSCREEN_SWAP_XY := true
-#RECOVERY_TOUCHSCREEN_FLIP_X := false    
+RECOVERY_TOUCHSCREEN_SWAP_XY := truee    
 RECOVERY_TOUCHSCREEN_FLIP_Y := true 
 
 # TWRP file system
