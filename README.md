@@ -27,6 +27,7 @@ Not works:
 Works:
 - [X] ADB
 - [X] Display
+- [X] OTA/Payload(full)
 - [X] Decryption
 - [X] Fasbootd
 - [X] Flashing
