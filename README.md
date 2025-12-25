@@ -17,7 +17,7 @@ lunch twrp_topaz
 make recoveryimage
 ```
 
-If there is no error, recovery.img will be found in out/target/product/topaz/recovery.img  
+If there is no error, recovery.img will be found in `out/target/product/topaz/recovery.img ` 
 
 
 ## Features
