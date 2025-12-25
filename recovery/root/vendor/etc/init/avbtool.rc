@@ -1,0 +1,6 @@
+service avbtool /vendor/bin/avbtool.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
