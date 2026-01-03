@@ -138,3 +138,5 @@ TW_LOAD_VENDOR_MODULES                  := "adsp_loader_dlkm.ko goodix_core.ko o
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI      := true
 TW_NO_SCREEN_BLANK                      := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID  := true
+TW_HAS_EDL_MODE                         := true
+
