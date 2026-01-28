@@ -87,6 +87,7 @@ QCOM_BOARD_PLATFORMS    += pineapple
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE    := true
 TARGET_RECOVERY_PIXEL_FORMAT                := RGBX_8888
 TW_INCLUDE_FASTBOOTD                        := true
+TW_HAS_EDL_MODE                             := true
 
 # Tool
 TW_ENABLE_ALL_PARTITION_TOOLS := true
@@ -95,6 +96,7 @@ TW_INCLUDE_REPACKTOOLS        := true
 TW_INCLUDE_RESETPROP          := true
 TW_USE_TOOLBOX                := true
 TW_INCLUDE_ZSTD               := true
+TW_USE_DMCTL                  := true
 
 # TWRP display
 TW_BRIGHTNESS_PATH      := /sys/class/backlight/panel0-backlight/brightness
@@ -134,9 +136,8 @@ TW_CUSTOM_CPU_TEMP_PATH                 := "/sys/class/thermal/thermal_zone48/te
 TW_EXCLUDE_APEX                         := true
 TW_EXCLUDE_DEFAULT_USB_INIT             := true
 TW_EXTRA_LANGUAGES                      := true
-TW_LOAD_VENDOR_MODULES                  := "adsp_loader_dlkm.ko goodix_core.ko oplus_chg_v2.ko stm_st54se_gpio.ko nxp-nci.ko"
+TW_LOAD_VENDOR_MODULES                  := "adsp_loader_dlkm.ko goodix_core.ko stm_st54se_gpio.ko nxp-nci.ko"
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI      := true
 TW_NO_SCREEN_BLANK                      := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID  := true
-TW_HAS_EDL_MODE                         := true
 
